@@ -1,16 +1,16 @@
 {
-  "_from": "@gemachain/gpl-token",
+  "_from": "@dainocreation/gpl-test",
   "_inBundle": false,
   "_integrity": "sha512-LZmYCKcPQDtJgecvWOgT/cnoIQPWjdH+QVyzPcFvyDUiT0DiRjZaam4aqNUyvchLFhzgunv3d9xOoyE34ofdoQ==",
-  "_location": "/@gemachain/gpl-token",
+  "_location": "/@dainocreation/gpl-token",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "@gemachain/gpl-token",
-    "name": "@gemachain/gpl",
-    "escapedName": "@gemachain%2fgpl-token",
-    "scope": "@gemachain",
+    "raw": "@dainocreation/gpl-test",
+    "name": "@dainocreation/gpl-test",
+    "escapedName": "@dainocreation%2fgpl-token",
+    "scope": "@dainocreation",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -21,9 +21,9 @@
   ],
   "_resolved": "https://registry.npmjs.org/@solana/spl-token/-/spl-token-0.1.8.tgz",
   "_shasum": "f06e746341ef8d04165e21fc7f555492a2a0faa6",
-  "_spec": "@gemachain/gpl-token",
-  "_where": "/home/coin/Documents/GitHub/gemachain-gpl-token",
-  "author": "Gemachain Maintainers <>",
+  "_spec": "@dainocreation/gpl-token",
+  "_where": "/home/coin/Documents/GitHub/dainocreation-gpl-token",
+  "author": "dainocreation Maintainers <>",
   "browser": {
     "./lib/index.cjs.js": "./lib/index.browser.esm.js",
     "./lib/index.esm.js": "./lib/index.browser.esm.js"
@@ -34,19 +34,19 @@
     "maintained node versions"
   ],
   "bugs": {
-    "url": "https://github.com/solana-labs/solana-program-library/issues"
+    "url": "https://github.com/ManojSharma5500/gpl-token-test/issues"
   },
   "dependencies": {
     "@babel/runtime": "^7.10.5",
     "@solana/web3.js": "^1.21.0",
-    "@gemachain/web3.js": "0.0.0-development-2",
+    "@dainocreation/web3.js": "0.0.0-development-2",
     "bn.js": "^5.1.0",
     "buffer": "6.0.3",
     "buffer-layout": "^1.2.0",
     "dotenv": "10.0.0"
   },
   "deprecated": false,
-  "description": "SPL Token JavaScript API",
+  "description": "GPL Token JavaScript API",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.10.5",
@@ -97,17 +97,17 @@
     "/lib",
     "/module.flow.js"
   ],
-  "homepage": "https://solana.com/",
+  "homepage": "https://github.com/ManojSharma5500/gpl-token-test#readme/",
   "license": "MIT",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
-  "name": "@dainocreation/gpl",
+  "name": "@dainocreation/gpl-test",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/solana-labs/solana-program-library.git"
+    "url": "git+https://github.com/ManojSharma5500/gpl-token-test.git"
   },
   "scripts": {
     "build": "rollup -c",
@@ -126,7 +126,7 @@
     "pretty": "prettier --check '{,cli*/**/}*.[jt]s'",
     "pretty:fix": "prettier --write '{,cli*/**/}*.[jt]s'",
     "start": "babel-node cli/main.js",
-    "start-with-test-validator": "start-server-and-test 'gemachain-test-validator --reset --quiet' http://localhost:8899/health start",
+    "start-with-test-validator": "start-server-and-test 'dainocreation-test-validator --reset --quiet' http://localhost:8899/health start",
     "test": "mocha './test/**/*.test.js'",
     "test:browser": "npm run build:browser-test && mocha-headless-chrome -f http://localhost:8080/mocha.html --timeout 180000",
     "test:browser-with-server": "start-server-and-test 'http-server -p 8080' 8080 test:browser"
